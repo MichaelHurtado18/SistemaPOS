@@ -1,0 +1,135 @@
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+
+
+#fechaConsultas {
+    width: 200px;
+}
+
+/*ESTILOS PARA EL HEADER DE caja/index.php*/
+.header_caja {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 6rem;
+}
+
+/*ESTILOS PARA EL FORMULARIO DEL .\INDEX*/
+.contenedor_formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.formulario {
+    width: 50%;
+}
+
+.input_form {
+    margin: 1rem auto;
+}
+
+.alerta {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+/*ESTILOS PARA DASHBOARD.PHP*/
+
+.grafica_b {
+    height: 200px;
+    width: 300px
+}
+
+@media(min-width:767px) {
+    .grafica_b {
+        width: 400px;
+    }
+}
+.graficos_bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+@media(min-width:767px) {
+    .graficos_bg {
+        flex-direction: row;
+        row-gap: 1rem;
+    }
+}
+
+.cards_bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media(min-width:767px) {
+    .cards_bg {
+        flex-direction: row;
+
+    }
+}
+
+
+
+.order-card {
+    color: #fff;
+}
+
+.bg-c-blue {
+    background: linear-gradient(45deg, #4099ff, #73b4ff);
+}
+
+.bg-c-green {
+    background: linear-gradient(45deg, #2ed8b6, #59e0c5);
+}
+
+.bg-c-yellow {
+    background: linear-gradient(45deg, #FFB64D, #ffcb80);
+}
+
+.bg-c-pink {
+    background: linear-gradient(45deg, #FF5370, #ff869a);
+}
+
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.card .card-block {
+    padding: 25px;
+}
+
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
